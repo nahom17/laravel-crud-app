@@ -14,17 +14,17 @@
   <div class="card-header">View Page</div>
   <div class="card-body">
 
-        <div class="card-body responsive">
+        <div class="card-body ms-5">
             <h4 class="card-title bold">student data</h4>
-        <p class="card-text">FirstName : {{ $students->FirstName }}</p>
-        <p class="card-text">LastName : {{ $students->LastName }}</p>
-        <p class="card-text">BirthDate : {{ $students->BirthDate }}</p>
-        <p class="card-text">Address : {{ $students->Address }}</p>
-        <p class="card-text">HouseNumber : {{ $students->HouseNumber }}</p>
-        <p class="card-text">Postcode : {{ $students->Postcode }}</p>
-        <p class="card-text">City : {{ $students->City }}</p>
-        <p class="card-text">Mobile : {{ $students->Mobile }}</p>
-        <p class="card-text">Email : {{ $students->Email }}</p>
+        <p class="card-text text-bold">FirstName :&nbsp;   {{ $students->FirstName }}</p>
+        <p class="card-text text-bold">LastName :&nbsp;    {{ $students->LastName }}</p>
+        <p class="card-text text-bold">BirthDate :&nbsp;   {{ $students->BirthDate }}</p>
+        <p class="card-text text-bold">Address :&nbsp;     {{ $students->Address }}</p>
+        <p class="card-text text-bold">HouseNumber :&nbsp; {{ $students->HouseNumber }}</p>
+        <p class="card-text text-bold">Postcode :&nbsp;    {{ $students->Postcode }}</p>
+        <p class="card-text text-bold">City :&nbsp;        {{ $students->City }}</p>
+        <p class="card-text text-bold">Mobile :&nbsp;      {{ $students->Mobile }}</p>
+        <p class="card-text text-bold">Email :&nbsp;       {{ $students->Email }}</p>
   </div>
 
     </hr>

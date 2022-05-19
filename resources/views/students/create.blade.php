@@ -13,7 +13,16 @@
       </header>
   <div class="card-header">Add Page</div>
   <div class="card-body">
-
+    @if ($errors->any())
+    <div class="alert alert-danger">
+        <p>Please fix those errors in the below!!</p>
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
       <form action="{{ url('student') }}" method="post">
         {!! csrf_field() !!}
         <label>FirstName</label></br>

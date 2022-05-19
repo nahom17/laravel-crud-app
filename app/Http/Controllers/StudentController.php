@@ -3,7 +3,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Student;
 use Illuminate\Http\Request;
-
+use App\Http\Requests\studentStoreRequest;
 class StudentController extends Controller
 {
     public function index()
@@ -20,7 +20,7 @@ class StudentController extends Controller
         return view('students.create');
     }
 
-    public function store(Request $request)
+    public function store(studentStoreRequest $request)
     {
         //here we stored the data which we created earlier in the above create()
         $input = $request->all();
