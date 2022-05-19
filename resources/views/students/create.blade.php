@@ -15,7 +15,7 @@
   <div class="card-body">
     @if ($errors->any())
     <div class="alert alert-danger">
-        <p>Please fix those errors in the below!!</p>
+        <p>Please fix the error shows the in  below!!</p>
         <ul>
             @foreach ($errors->all() as $error)
                 <li>{{ $error }}</li>
