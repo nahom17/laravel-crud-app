@@ -14,10 +14,10 @@ use App\Http\Controllers\StudentController;
 |
  */
 
-Route::get('/welcome', function () {
+Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/', function () {
+Route::get('/student', function () {
     return view('students/index');
 });
 //route for all crud
